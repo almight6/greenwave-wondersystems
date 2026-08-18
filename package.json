@@ -1,0 +1,24 @@
+{
+  "name": "wondersystemsindia-clone",
+  "version": "1.0.0",
+  "description": "Local clone of Wonder Systems India homepage",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -l 3000 .",
+    "serve": "npx serve -l 3000 .",
+    "dev": "npx serve -l 3000 .",
+    "clone": "node scripts/clone_site.js",
+    "deploy": "npx wrangler pages deploy . --project-name=greenwave-wondersystems"
+  },
+  "keywords": [
+    "industrial-automation",
+    "abb",
+    "wonder-systems"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "playwright": "^1.62.1"
+  }
+}

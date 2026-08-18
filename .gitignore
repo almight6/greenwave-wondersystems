@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Local test & audit files
+audit_screenshots/
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
