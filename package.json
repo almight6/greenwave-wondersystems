@@ -1,24 +1,19 @@
 {
-  "name": "wondersystemsindia-clone",
+  "name": "greenwave-technologies",
   "version": "1.0.0",
-  "description": "Local clone of Wonder Systems India homepage",
+  "description": "Greenwave Technologies Diamond & Laser Material Processing Systems",
   "main": "index.html",
   "scripts": {
     "start": "npx serve -l 3000 .",
-    "serve": "npx serve -l 3000 .",
     "dev": "npx serve -l 3000 .",
-    "clone": "node scripts/clone_site.js",
-    "deploy": "npx wrangler pages deploy . --project-name=greenwave-wondersystems"
+    "deploy": "npx wrangler deploy"
   },
   "keywords": [
+    "laser-diamond-cutting",
     "industrial-automation",
-    "abb",
-    "wonder-systems"
+    "greenwave"
   ],
-  "author": "",
+  "author": "Greenwave Technologies",
   "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "playwright": "^1.62.1"
-  }
+  "type": "commonjs"
 }

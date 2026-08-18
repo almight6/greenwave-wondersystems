@@ -1,0 +1,14 @@
+node_modules
+node_modules/**
+scripts
+scripts/**
+audit_screenshots
+audit_screenshots/**
+.git
+.git/**
+package.json
+package-lock.json
+wrangler.jsonc
+.gitignore
+.assetsignore
+README.md

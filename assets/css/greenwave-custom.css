@@ -390,33 +390,41 @@ header.elementor-15 {
 }
 
 /* Responsive Media Queries */
-@media (max-width: 1200px) {
+@media (min-width: 1024px) {
   .gw-footer-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 36px 30px;
-  }
-  .gw-footer-brand {
-    grid-column: span 3;
-    max-width: 650px;
-  }
-  .gw-footer-contact-col {
-    grid-column: span 2;
-  }
-  .gw-footer-trust-bar {
-    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-template-columns: 1.35fr 1fr 1fr 0.95fr 1.25fr;
+    gap: 36px;
+    margin-bottom: 50px;
   }
 }
 
-@media (max-width: 860px) {
+@media (min-width: 641px) and (max-width: 1023px) {
   .gw-footer-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 32px 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 36px 24px;
+    margin-bottom: 40px;
   }
   .gw-footer-brand {
-    grid-column: span 2;
+    grid-column: span 3;
+    max-width: 100%;
   }
   .gw-footer-contact-col {
-    grid-column: span 2;
+    grid-column: span 3;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 14px;
+    padding: 24px 28px;
+  }
+  .gw-footer-contact-list {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 24px;
+  }
+  .gw-footer-contact-col .gw-footer-whatsapp-btn {
+    margin-top: 16px;
+    max-width: 320px;
   }
   .gw-footer-trust-bar {
     grid-template-columns: repeat(2, 1fr);
@@ -425,6 +433,7 @@ header.elementor-15 {
 
 @media (max-width: 640px) {
   .gw-footer-grid {
+    display: grid;
     grid-template-columns: 1fr;
     gap: 28px;
   }
